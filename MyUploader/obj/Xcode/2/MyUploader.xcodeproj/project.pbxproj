@@ -1,0 +1,246 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1693756A0000000000000000 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 130268CC0000000000000000 /* Cocoa.framework */; };
+		7287D3800000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB989D600000000000000000 /* Foundation.framework */; };
+		1DF922BA0000000000000000 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 218A2F580000000000000000 /* MainWindow.xib */; };
+		3DDFB12C0000000000000000 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 170BDCA00000000000000000 /* MainMenu.xib */; };
+		21574C3C0000000000000000 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24E858DA0000000000000000 /* Info.plist */; };
+		4CEE74C00000000000000000 /* FailedUploadsLogs.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85FF3EA00000000000000000 /* FailedUploadsLogs.xib */; };
+		A0F08AB00000000000000000 /* MainWindow.h in Sources */ = {isa = PBXBuildFile; fileRef = DA0154900000000000000000 /* MainWindow.h */; };
+		1D6079660000000000000000 /* MainWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F186040000000000000000 /* MainWindow.m */; };
+		244FAF860000000000000000 /* MainWindowController.h in Sources */ = {isa = PBXBuildFile; fileRef = 27E0BC240000000000000000 /* MainWindowController.h */; };
+		27ADD9080000000000000000 /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3EE5A60000000000000000 /* MainWindowController.m */; };
+		2CEDFA670000000000000000 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 307F07050000000000000000 /* AppDelegate.h */; };
+		1CC7D0120000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2058DCB00000000000000000 /* AppDelegate.m */; };
+		1E76E4D30000000000000000 /* FailedUploadsLogs.h in Sources */ = {isa = PBXBuildFile; fileRef = 2207F1710000000000000000 /* FailedUploadsLogs.h */; };
+		39D94A400000000000000000 /* FailedUploadsLogs.m in Sources */ = {isa = PBXBuildFile; fileRef = 72EA14200000000000000000 /* FailedUploadsLogs.m */; };
+		1BB9CC700000000000000000 /* FailedUploadsLogsController.h in Sources */ = {isa = PBXBuildFile; fileRef = 54CA96500000000000000000 /* FailedUploadsLogsController.h */; };
+		23513FFA0000000000000000 /* FailedUploadsLogsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E24C980000000000000000 /* FailedUploadsLogsController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F715C2E00000000000000000 /* MyUploader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "MyUploader.app"; path = "MyUploader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		130268CC0000000000000000 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Cocoa.framework"; path = "System/Library/Frameworks/Cocoa.framework"; sourceTree = SDKROOT; };
+		AB989D600000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		218A2F580000000000000000 /* MainWindow.xib */ = {isa = PBXFileReference; name = "MainWindow.xib"; path = "MainWindow.xib"; sourceTree = "<group>"; };
+		170BDCA00000000000000000 /* MainMenu.xib */ = {isa = PBXFileReference; name = "MainMenu.xib"; path = "MainMenu.xib"; sourceTree = "<group>"; };
+		24E858DA0000000000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info.plist"; path = "Info.plist"; sourceTree = "<group>"; };
+		85FF3EA00000000000000000 /* FailedUploadsLogs.xib */ = {isa = PBXFileReference; name = "FailedUploadsLogs.xib"; path = "FailedUploadsLogs.xib"; sourceTree = "<group>"; };
+		DA0154900000000000000000 /* MainWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MainWindow.h"; path = "MainWindow.h"; sourceTree = "<group>"; };
+		20F186040000000000000000 /* MainWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "MainWindow.m"; path = "MainWindow.m"; sourceTree = "<group>"; };
+		27E0BC240000000000000000 /* MainWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MainWindowController.h"; path = "MainWindowController.h"; sourceTree = "<group>"; };
+		2B3EE5A60000000000000000 /* MainWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "MainWindowController.m"; path = "MainWindowController.m"; sourceTree = "<group>"; };
+		307F07050000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		2058DCB00000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+		2207F1710000000000000000 /* FailedUploadsLogs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "FailedUploadsLogs.h"; path = "FailedUploadsLogs.h"; sourceTree = "<group>"; };
+		72EA14200000000000000000 /* FailedUploadsLogs.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "FailedUploadsLogs.m"; path = "FailedUploadsLogs.m"; sourceTree = "<group>"; };
+		54CA96500000000000000000 /* FailedUploadsLogsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "FailedUploadsLogsController.h"; path = "FailedUploadsLogsController.h"; sourceTree = "<group>"; };
+		26E24C980000000000000000 /* FailedUploadsLogsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "FailedUploadsLogsController.m"; path = "FailedUploadsLogsController.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		206D9FE10000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1693756A0000000000000000 /* Cocoa.framework in Frameworks */,
+				7287D3800000000000000000 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D57D0190000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				2B1630600000000000000000 /* MyUploader */,
+				B3A374900000000000000000 /* Frameworks */,
+				280AF5F30000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		280AF5F30000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F715C2E00000000000000000 /* MyUploader.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		B3A374900000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB989D600000000000000000 /* Foundation.framework */,
+				130268CC0000000000000000 /* Cocoa.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		2B1630600000000000000000 /* MyUploader */ = {
+			isa = PBXGroup;
+			children = (
+				307F07050000000000000000 /* AppDelegate.h */,
+				2207F1710000000000000000 /* FailedUploadsLogs.h */,
+				85FF3EA00000000000000000 /* FailedUploadsLogs.xib */,
+				54CA96500000000000000000 /* FailedUploadsLogsController.h */,
+				24E858DA0000000000000000 /* Info.plist */,
+				170BDCA00000000000000000 /* MainMenu.xib */,
+				DA0154900000000000000000 /* MainWindow.h */,
+				218A2F580000000000000000 /* MainWindow.xib */,
+				27E0BC240000000000000000 /* MainWindowController.h */,
+				1F4271430000000000000000 /* Supporting Files */,
+			);
+			name = "MyUploader";
+			sourceTree = "<group>";
+		};
+		1F4271430000000000000000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2058DCB00000000000000000 /* AppDelegate.m */,
+				72EA14200000000000000000 /* FailedUploadsLogs.m */,
+				26E24C980000000000000000 /* FailedUploadsLogsController.m */,
+				20F186040000000000000000 /* MainWindow.m */,
+				2B3EE5A60000000000000000 /* MainWindowController.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3BC7BD00000000000000000 /* MyUploader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 383120480000000000000000 /* Build configuration list for PBXNativeTarget "MyUploader" */;
+			buildPhases = (
+				BE04F9000000000000000000 /* Sources */,
+				206D9FE10000000000000000 /* Frameworks */,
+				84F42F200000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MyUploader";
+			productName = "MyUploader";
+			productReference = F715C2E00000000000000000 /* MyUploader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1496CAAE0000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1817AEBA0000000000000000 /* Build configuration list for PBXProject "MyUploader" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1D57D0190000000000000000;
+			productRefGroup = 280AF5F30000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3BC7BD00000000000000000 /* MyUploader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84F42F200000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DF922BA0000000000000000 /* MainWindow.xib in Resources */,
+				3DDFB12C0000000000000000 /* MainMenu.xib in Resources */,
+				21574C3C0000000000000000 /* Info.plist in Resources */,
+				4CEE74C00000000000000000 /* FailedUploadsLogs.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE04F9000000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0F08AB00000000000000000 /* MainWindow.h in Sources */,
+				1D6079660000000000000000 /* MainWindow.m in Sources */,
+				244FAF860000000000000000 /* MainWindowController.h in Sources */,
+				27ADD9080000000000000000 /* MainWindowController.m in Sources */,
+				2CEDFA670000000000000000 /* AppDelegate.h in Sources */,
+				1CC7D0120000000000000000 /* AppDelegate.m in Sources */,
+				1E76E4D30000000000000000 /* FailedUploadsLogs.h in Sources */,
+				39D94A400000000000000000 /* FailedUploadsLogs.m in Sources */,
+				1BB9CC700000000000000000 /* FailedUploadsLogsController.h in Sources */,
+				23513FFA0000000000000000 /* FailedUploadsLogsController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BE365400000000000000000 /* MonoMac */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				SDKROOT = macosx;
+			};
+			name = MonoMac;
+		};
+		31DD18BF0000000000000000 /* MonoMac */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				PRODUCT_NAME = "MyUploader";
+				WRAPPER_EXTENSION = app;
+			};
+			name = MonoMac;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1817AEBA0000000000000000 /* Build configuration list for PBXProject "MyUploader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BE365400000000000000000 /* MonoMac */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoMac;
+		};
+		383120480000000000000000 /* Build configuration list for PBXNativeTarget "MyUploader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31DD18BF0000000000000000 /* MonoMac */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoMac;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1496CAAE0000000000000000 /* Project object */;
+}

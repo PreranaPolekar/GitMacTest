@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MyUploader/MainWindowController.cs">
+    <Files>
+      <File FileName="MyUploader/Main.cs" Line="1" Column="1" />
+      <File FileName="MyUploader/MainWindowController.cs" Line="21" Column="21" />
+      <File FileName="MyUploader/FailedUploadsLogs.cs" Line="1" Column="1" />
+      <File FileName="MyUploader/FailedUploadsLogsController.cs" Line="50" Column="50" />
+      <File FileName="MyUploader/TableDataSource.cs" Line="2" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
